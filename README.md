@@ -9,7 +9,11 @@ Install pipenv. (A modern way to combine pip and virtual environments for cleane
 pip install pipenv
 ```
 
-This may require being run with 'sudo' depending on how your system is set up.
+If this throws a permissions error you will need to to run this with 'sudo'
+
+```
+sudo pip install pipenv
+```
 
 Install dependencies and start a clean python environment
 
@@ -27,10 +31,10 @@ python main.py
 
 To exit the sim hit `esc` or close the window.
 
-To exit this python environment 
+To exit this python environment
 
 ```
-pipenv exit
+exit
 ```
 
 or close your terminal and start a new one.
